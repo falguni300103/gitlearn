@@ -25,7 +25,7 @@ class TaskManager:
             self.tasks[task_index - 1].completed = True
             print("Task marked as completed...")
         else:
-            print("Invalid task index.")
+            print("Invalid index")
 
     def write_tasks(self):
         """
